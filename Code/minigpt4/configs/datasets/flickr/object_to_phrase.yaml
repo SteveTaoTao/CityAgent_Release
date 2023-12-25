@@ -1,0 +1,6 @@
+datasets:
+  flickr_ObjectToPhrase:
+    data_type: images
+    build_info:
+      image_path: /media/train_data/Crop_date/images
+      ann_path: /media/train_data/Crop_date/crop.json

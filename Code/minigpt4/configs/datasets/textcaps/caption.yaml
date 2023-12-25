@@ -1,0 +1,9 @@
+datasets:
+  textcaps_caption:
+    data_type: images
+    
+    build_info:
+      image_path: /media/train_data/TextCaps/VG_100K
+      ann_path: /media/train_data/TextCaps/TextCaps_0.1_train.json
+
+

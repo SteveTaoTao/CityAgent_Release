@@ -1,0 +1,6 @@
+datasets:
+  flickr_grounded_caption:
+    data_type: images
+    build_info:
+      image_path: /media/train_data/Filteredflickr-30k/images
+      ann_path: /media/train_data/Filteredflickr-30k/groundedcaption.json
