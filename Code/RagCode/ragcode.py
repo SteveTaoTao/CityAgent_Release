@@ -83,15 +83,15 @@ retriever.vectorstore.add_documents(sub_docs_splits)
 retriever.docstore.mset(list(zip(doc_ids, docs_splits)))
 
 #### similarity search
-similar_docs = retriever.vectorstore.similarity_search("生产不符合食品安全标准的食品")
-relevant_docs = retriever.get_relevant_documents("生产不符合食品安全标准的食品")
+similar_docs = retriever.vectorstore.similarity_search("your questions")
+relevant_docs = retriever.get_relevant_documents("your questions")
 
 
 
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0), retriever, memory=memory)
 
-result = qa({"question": "发现摊贩，按照条例如何处理"})
-print("Q:","发现摊贩，按照条例如何处理")
+result = qa({"question": "your questions"})
+print("Q:","your questions")
 print(result)
 
