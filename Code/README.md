@@ -38,7 +38,7 @@ Using  [fine-tune weight](https://figshare.com/s/fddd31a9906038bda8e0): Alternat
 ### (Optional): Interface with cityagent
 When you have completed the environment setup and obtained the weights, you can run the [interface_with_cityagent.py](interface_with_cityagent.py) to interact with cityagent.
 
-    1.Place the city management-related regulatory documents in the data folder (we have already stored some). When the interactive program is running, the vector dataset will be automatically generated based on the documents in the folder.
+    1.Place the urban management-related regulatory documents in the data folder (we have already stored some). When the interactive program is running, the vector dataset will be automatically generated based on the documents in the folder.
     2.Input the path of the image you want to infer
     3.Input the question you want to ask, for example, "Is there trash in this picture?"
     4.Input the target you want to extract, for example, "trash."
