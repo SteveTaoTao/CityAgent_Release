@@ -8,7 +8,7 @@ CityAgent is a knowledge-enhanced multimodal framework based on Large Multimodal
 1.  [visible_grounding.py: Visualize training data](DB_tools/visible_tools/visible_grounding.py)                        
 2.  [make_crop_data_work.py: Crop images](DB_tools/make_db/make_crop_data_work.py)
 3.  [infer_all_mmvet.py: Evaluation](infer_all_mmvet.py)
-4.  [rag_infer.py: Inference code for RAG module](RagCode/ragcode.py)
+4.  [ragcode.py: Inference code for RAG module](RagCode/ragcode.py)
 5.  [fine-tuned weight (checkpoint)](https://figshare.com/s/fddd31a9906038bda8e0)
 6.  [vqa_cli_infer.py: Inference code for VQA ](vqa_cli_infer.py)
 7.  [infer_detection.py: Inference code for get detection result](infer_detection.py)
