@@ -8,11 +8,11 @@ CityAgent is a knowledge-enhanced multimodal framework based on Large Multimodal
 1.  [visible_grounding.py: Visualize training data](DB_tools/visible_tools/visible_grounding.py)                        
 2.  [make_crop_data_work.py: Crop images](DB_tools/make_db/make_crop_data_work.py)
 3.  [infer_all_mmvet.py: Evaluation](infer_all_mmvet.py)
-4.  [rag_infer.py: Inference code for RAG module](RagCode/lin_rag.py)
-5.  [fine-tune weight](https://figshare.com/s/fddd31a9906038bda8e0)
+4.  [rag_infer.py: Inference code for RAG module](RagCode/ragcode.py)
+5.  [fine-tuned weight (checkpoint)](https://figshare.com/s/fddd31a9906038bda8e0)
 6.  [vqa_cli_infer.py: Inference code for VQA ](vqa_cli_infer.py)
 7.  [infer_detection.py: Inference code for get detection result](infer_detection.py)
-8.  [interface_with_cityagent.py: Inference code for interface with cityagent](interface_with_cityagent.py)
+8.  [interact_with_cityagent.py: Inference code for interact with cityagent](interact_with_cityagent.py)
 9.  [Our mock data](https://figshare.com/s/022d60d9e3cc3759cf64 )
 
 ## Installation
@@ -36,8 +36,8 @@ Using Fine-Tuned Weights: If you have already fine-tuned the model, you can conf
 Using  [fine-tune weight](https://figshare.com/s/fddd31a9906038bda8e0): Alternatively, you can download our fine-tune weights and use the  [vqa_cli_infer.py: Inference code for VQA ](vqa_cli_infer.py) code to perform direct model inference. If you want to get the result image of MiniGPT-V2 detection, you can modify the image path and task, and then run [infer_detection.py](infer_detection.py) to obtain it.
 
 
-### (Optional): Interface with cityagent
-When you have completed the environment setup and obtained the weights, you can run the [interface_with_cityagent.py](interface_with_cityagent.py) to interact with cityagent.
+### (Optional): Interact with cityagent
+When you have completed the environment setup and obtained the weights, you can run the [interact_with_cityagent.py](interact_with_cityagent.py) to interact with cityagent.
 
     1.Place the urban management-related regulatory documents in the data folder (we have already stored some). When the interactive program is running, the vector dataset will be automatically generated based on the documents in the folder.
     2.Input the path of the image you want to infer

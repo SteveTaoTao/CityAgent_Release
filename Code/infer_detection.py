@@ -79,9 +79,6 @@ def main():
     vis_processor_cfg = cfg.datasets_cfg.cc_sbu_align.vis_processor.train
     vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
     model = model.eval()
-
-    # 初始化并加载模型
-    
     image_path = "test_images/1.jpg"
     question = "trash"
     image = Image.open(image_path).convert("RGB")

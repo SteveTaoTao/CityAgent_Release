@@ -17,3 +17,5 @@
     3.Input the question you want to ask, for example, "Is there trash in this picture?"
     4.Input the target you want to extract, for example, "trash."
     5.Specify what actions should be taken according to the regulations if trash is found.
+### 5.MM-Vet evaluation
+    See Code/README.md
