@@ -1,6 +1,0 @@
-datasets:
-  llava_reason:
-    data_type: images
-    build_info:
-      image_path: /media/train_data/coco/coco_images/train/
-      ann_path: /media/train_data/LLAVA/complex_reasoning_77k.json

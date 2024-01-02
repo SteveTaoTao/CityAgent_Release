@@ -16,9 +16,9 @@ CityAgent is a knowledge-enhanced multimodal framework based on Large Multimodal
 9.  [Our mock data](https://figshare.com/s/022d60d9e3cc3759cf64 )
 
 ## Installation
-
-1.  MiniGPT-v2  [GPTv2_README](README_MINI_BASE.md)
-
+1.  Git clone [MiniGPT-v2 Project](https://github.com/Vision-CAIR/MiniGPT-4)
+2.  Follow the installation steps in [MiniGPT-v2_README](README_MINI_BASE.md)
+3.  Move all our project files to the root directory of MiniGPT-v2 Project and follow Quick Start to execute.
 
 ## Quick Start
 ### Environment Setup：

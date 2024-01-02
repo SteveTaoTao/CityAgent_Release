@@ -1,6 +1,0 @@
-datasets:
-  ocrvqa:
-    data_type: images
-    build_info:
-      image_path: /media/db_data/train_data/OCR-VQA/images
-      ann_path: /media/db_data/train_data/OCR-VQA/dataset.json
