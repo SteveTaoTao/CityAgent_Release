@@ -19,6 +19,7 @@ CityAgent is a knowledge-enhanced multimodal framework based on Large Multimodal
 1.  Git clone [MiniGPT-v2 Project](https://github.com/Vision-CAIR/MiniGPT-4)
 2.  Follow the installation steps in [MiniGPT-v2_README](README_MINI_BASE.md)
 3.  Move all our project files to the root directory of MiniGPT-v2 Project and follow Quick Start to execute.
+4. (Optional):If you want to use our [MM-Vet evaluation code](infer_all_mmvet.py), you can obtain the [MM-Vet data](https://huggingface.co/datasets/Otter-AI/MMVet/tree/main) and then place the folder in the root directory of this project.
 
 ## Quick Start
 ### Environment Setup：
