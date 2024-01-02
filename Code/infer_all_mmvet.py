@@ -86,7 +86,6 @@ def main():
     model = model.eval()
 
     image_base_path = "./mm-vet/images/"
-    # 初始化并加载模型
     
     for every_q_index in all_q_info:
         every_q_body = all_q_info[every_q_index]
