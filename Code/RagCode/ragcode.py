@@ -89,7 +89,7 @@ relevant_docs = retriever.get_relevant_documents("your questions")
 
 
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0), retriever, memory=memory)
+qa = ConversationalRetrievalChain.from_llm(OpenAI(model_name='gpt-3.5-turbo', temperature=0), retriever, memory=memory)
 
 result = qa({"question": "your questions"})
 print("Q:","your questions")
